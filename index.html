@@ -12,15 +12,32 @@
     font-family: Arial, sans-serif;
   }
 
-  header {
-    padding: 24px 8vw;
-    border-bottom: 1px solid #d8d3c9;
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 8vw;
+  border-bottom: 1px solid #d8d3c9;
+}
 
   header p {
     margin: 0;
     font-size: 14px;
   }
+  nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #222222;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #9a3d26;
+}
 
   main {
     max-width: 900px;
@@ -42,13 +59,20 @@
                       
 </head>
 <body>
-  <header>
-    <p>이병호 | Byeongho Lee</p>
-  </header>
+<header>
+  <p>이병호 | Byeongho Lee</p>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#cv">CV</a>
+  </nav>
+</header>
 
   <main>
-    <section>
-      <h1>이병호</h1>
+<section id="about">      <h1>이병호</h1>
       <p>Byeongho Lee</p>
       <p>과학철학 · 인식론 · 인공지능의 철학</p>
 

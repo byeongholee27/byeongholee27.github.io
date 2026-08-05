@@ -74,7 +74,11 @@ p {
   font-size: 18px;
   line-height: 1.7;
 }
-
+p,
+li,
+summary {
+  word-break: keep-all;
+}
 .profile-photo {
   display: block;
   width: 100%;

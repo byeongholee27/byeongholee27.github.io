@@ -155,3 +155,7 @@ p {
     font-size: 18px;
   }
 }
+.works-list li {
+  font-size: 18px;
+  line-height: 1.7;
+}

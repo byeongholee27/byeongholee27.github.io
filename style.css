@@ -259,3 +259,25 @@ summary {
     width: min(280px, 100%);
   }
 }
+.language-switch {
+  margin: -4px 0 0;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+
+.language-switch a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.language-switch a:hover {
+  color: #9a3d26;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.language-switch span[aria-current="true"] {
+  color: #222222;
+  font-weight: bold;
+}

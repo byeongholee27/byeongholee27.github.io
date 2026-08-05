@@ -116,6 +116,10 @@ summary {
   margin-top: 0;
 }
 
+.about-copy p:first-child {
+  margin-top: 0;
+}
+
 .research-page {
   width: min(900px, 100%);
 }

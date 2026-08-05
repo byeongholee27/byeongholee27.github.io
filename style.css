@@ -130,6 +130,8 @@ p {
 .works-list li {
   padding: 18px 0;
   border-top: 1px solid #d8d3c9;
+  font-size: 24px;
+  line-height: 1.7;
 }
 
 .works-list li:last-child {
@@ -159,5 +161,8 @@ p {
 
   .profile-photo {
     width: min(280px, 100%);
+  }
+    .works-list li {
+    font-size: 18px;
   }
 }

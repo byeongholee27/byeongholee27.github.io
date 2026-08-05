@@ -25,10 +25,10 @@ header a {
 }
 
 nav {
+  margin-left: auto;
   display: flex;
   gap: 20px;
 }
-
 nav a {
   color: #222222;
   font-size: 14px;

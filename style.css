@@ -255,9 +255,10 @@ summary {
     gap: 28px;
   }
 
-  .profile-photo {
-    width: min(280px, 100%);
-  }
+.profile-photo {
+  width: min(280px, 100%);
+  margin: 0 auto;
+}
 }
 .language-switch {
   margin: -4px 0 0;

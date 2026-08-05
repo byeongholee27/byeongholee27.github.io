@@ -284,9 +284,6 @@ summary {
   color: #222222;
   font-weight: bold;
 }
-.contact-page p {
-  width: fit-content;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+.contact-page {
+  text-align: center;
 }

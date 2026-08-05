@@ -13,6 +13,7 @@ body {
 
 header {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 24px 8vw;
   border-bottom: 1px solid #d8d3c9;
@@ -92,9 +93,12 @@ p {
     font-size: 20px;
   }
 
-  main {
-    padding: 16vw 6vw;
-  }
+main {
+  box-sizing: border-box;
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  padding: 11vw 52px;
+}
 
   #about {
     grid-template-columns: 1fr;

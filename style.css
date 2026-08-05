@@ -48,7 +48,8 @@ main {
 }
 
 h1, h2 {
-  font-family: "Times New Roman", Arial, sans-serif;
+  font-family: "KoPubWorld Dotum", Arial, sans-serif;
+  font-weight: 300;
 }
 
 h1 {

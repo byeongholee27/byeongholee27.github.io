@@ -43,22 +43,20 @@ nav {
 
 nav a {
   color: #222222;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+  font-family: "Times New Roman", serif;
+  font-size: 28px;
   font-weight: bold;
-  letter-spacing: 0.4px;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 nav a:hover {
-  color: #3c8eae;
+  color: #9a3d26;
 }
 
 nav a[aria-current="page"] {
-  color: #3c8eae;
-  border-bottom: 1px solid currentColor;
+  border-bottom: 2px solid currentColor;
 }
 
 main {
@@ -242,8 +240,8 @@ summary {
   }
 
   nav a {
-    font-size: 15px;
-  }
+  font-size: 20px;
+}
 
   main {
     padding: 16vw 6vw;

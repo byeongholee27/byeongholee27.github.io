@@ -96,6 +96,45 @@ p {
 .research-page h2 {
   margin-top: 72px;
 }
+.research-page {
+  width: min(900px, 100%);
+}
+
+.research-page h1 {
+  font-size: 48px;
+}
+
+.research-section {
+  margin-top: 88px;
+  padding-top: 52px;
+  border-top: 1px solid #d8d3c9;
+}
+
+.research-page h2 {
+  margin: 0 0 36px;
+  font-size: 40px;
+}
+
+.research-page h3 {
+  margin: 48px 0 16px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.works-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.works-list li {
+  padding: 18px 0;
+  border-top: 1px solid #d8d3c9;
+}
+
+.works-list li:last-child {
+  border-bottom: 1px solid #d8d3c9;
+}
 @media (max-width: 650px) {
   header {
     padding: 18px 6vw;

@@ -28,11 +28,17 @@ nav a {
   color: #222222;
   font-family: "Times New Roman", serif;
   font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 5px;
   text-decoration: none;
 }
 
 nav a:hover {
   color: #9a3d26;
+}
+
+nav a[aria-current="page"] {
+  border-bottom: 2px solid currentColor;
 }
 
 main {

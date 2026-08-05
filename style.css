@@ -94,16 +94,23 @@ p {
   }
 
 main {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
   padding: 11vw 8vw;
+  display: flex;
+  justify-content: center;
 }
 
-  #about {
-    grid-template-columns: 1fr;
-    gap: 28px;
-  }
+#about {
+  box-sizing: border-box;
+  width: min(900px, 100%);
+  margin: 0;
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 52px;
+  align-items: start;
+}
 
   .profile-photo {
     width: min(280px, 100%);

@@ -287,3 +287,6 @@ summary {
 .contact-page {
   text-align: center;
 }
+html[lang="en"] .scholar-link {
+  font-size: 18px;
+}
